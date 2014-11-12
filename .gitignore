@@ -1,6 +1,9 @@
 # Ignore htaccess password file.
 .htpasswd
 
+# Ignore WordPress config file.
+wp-config.php
+
 # Ignore sublime setting files.
 sftp-config.json
 *.sublime-project
