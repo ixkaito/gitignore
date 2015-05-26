@@ -1,26 +1,32 @@
-# Ignore htaccess password file.
+# Basic auth password files
 .htpasswd
 
-# Ignore WordPress config file.
+# Sass
+.sass-cache
+*.scssc
+
+# Sublime Text
+sftp-config.json
+
+# WordPress
 wp-config.php
 
-# Ignore sublime setting files.
-sftp-config.json
-*.sublime-project
-*.sublime-workspace
-
-# Ignore bundler config.
+# Ruby on Rails
 /.bundle
-
-# Ignore the default SQLite database. (Ruby on Rails)
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
-# Ignore all logfiles and tempfiles.
-/log/*.log
+# Jekyll
+_site
+
+# Node.js
+node_modules/
+
+# Logfiles and tempfiles
+*.log
 /tmp
 
-# Ignore other unneeded files.
+# Other unneeded files
 doc/
 *.swp
 *~
@@ -28,6 +34,3 @@ doc/
 .DS_Store
 .idea
 .secret
-
-# Ignore Sass cache files.
-*.scssc
