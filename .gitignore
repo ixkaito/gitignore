@@ -17,6 +17,7 @@ wp-config.php
 /.bundle
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/public/uploads
 
 # Jekyll
 _site
