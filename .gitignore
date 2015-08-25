@@ -26,6 +26,7 @@ _site
 node_modules/
 
 # Logfiles and tempfiles
+*.log
 /log/*
 !/log/.keep
 /tmp
