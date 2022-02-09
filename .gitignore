@@ -6,9 +6,6 @@
 .sass-cache
 *.scssc
 
-# Sublime Text
-sftp-config.json
-
 # WordPress
 wp-config.php
 *.sql
@@ -32,7 +29,6 @@ node_modules/
 /tmp
 
 # Other unneeded files
-doc/
 *.swp
 *~
 .project
